@@ -57,7 +57,9 @@ Understand the meteor.isClient/Server() function.
 
    
 
+Step 4 - Meteor Collection
 
+    Events =  new Mongo.Collection("events")
 
 
 
@@ -71,4 +73,4 @@ Good things to know :
     - Security must be implemented regardings the sensitivity level of your data
         - no rules (Only for prototype)
         - Allow/Deny rules 
-        - Methods call
+        - Methods call => Meteor.call()
