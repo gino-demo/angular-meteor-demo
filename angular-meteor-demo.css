@@ -37,3 +37,17 @@ body{
 h3, h5{
     color: black;
 }
+a {
+    color: #67EA86;
+}
+
+a:hover {
+    color: deeppink;
+    cursor:pointer;
+}
+
+
+.eventForm{
+    color: black;
+    margin : 10px;
+}

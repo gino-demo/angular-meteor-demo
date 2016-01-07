@@ -57,9 +57,14 @@ Understand the meteor.isClient/Server() function.
 
    
 
-Step 4 - Meteor Collection
+STEP 4 - Meteor Collection
 
     Events =  new Mongo.Collection("events")
+
+
+
+
+STEP 5 - Meteor Collection CRUD + Organising code
 
 
 
