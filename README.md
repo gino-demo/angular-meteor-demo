@@ -2,24 +2,24 @@
 Angular meteor app demo
 
 
-First of all : 
+ - Meteor Part :
 
- - Install meteor : 
+    1 - Install meteor : 
  
-    $ curl https://install.meteor.com/ | sh
+        $ curl https://install.meteor.com/ | sh
 
-STEP 1 - Meteor app
 
- - On your computer create your meteor application :
+    2 - On your computer create your meteor application :
  
         $ meteor create angular-meteor-demo
-    
- - Enter in your application then start it :
+
+    3 - Enter in your application then start it :
  
         $ cd angular-meteor-demo
         $ meteor
     
- - push your application on github : 
+ - GitHub part: 
+ 
     1 - create the angular-meteor-demo app on github
     
     2 - inside your app, tap : 
@@ -77,3 +77,5 @@ STEP 1 - Meteor app
      - API Token
      - Project Name
      - Modulus App Url
+     
+     
