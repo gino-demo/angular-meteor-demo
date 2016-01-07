@@ -67,10 +67,13 @@ STEP 1 - Meteor app
     meteor --version
 
      then save and go dashboard
-     
-     On your computer, generate your modulus api id :
-     
 
-    On co
      Configure your deployment pipeline indicating which branch to follow :
      ex : Step_1_Meteor_Init
+     
+     Select your cloud service deployment : modulus
+     
+     and add the 3 informations : 
+     - API Token
+     - Project Name
+     - Modulus App Url
