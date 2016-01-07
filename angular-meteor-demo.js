@@ -36,10 +36,9 @@ if (Meteor.isClient) {
 
 
   angular.module('angular-meteor-demo').controller('EventsCtrl', ['$scope', '$meteor', function ($scope, $meteor) {
-      $scope.events = $meteor.collection(function (){
+      $scope.events = $meteor.collection(function () {
           return Events.find ({}, {sort: {}, limit: 10});
       });
-
   }]);
 
 }
