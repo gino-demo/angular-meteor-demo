@@ -96,4 +96,4 @@ Angular meteor app demo
         $ meteor add angularui:angular-ui-router
         $ meteor add twbs:bootstrap
 
-    
+  Next  
