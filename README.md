@@ -42,7 +42,7 @@ Angular meteor app demo
      - ROOT_URL : http://angularmeteordemo-57548.onmodulus.net
      
      Install modulus on your computer then login and deploy it :
-     
+
         $ npm install -g modulus
         $ modulus login
         $ modulus deploy -p "angular-meteor-demo"
