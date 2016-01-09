@@ -43,10 +43,10 @@ Angular meteor app demo
      
      Install modulus on your computer then login and deploy it :
 
-        $ npm install -g modulus
-        $ modulus login
-        $ modulus deploy -p "angular-meteor-demo"
-        $ modulus token create
+         $ npm install -g modulus
+         $ modulus login
+         $ modulus deploy -p "angular-meteor-demo"
+         $ modulus token create
 
      Save the token generated
 
