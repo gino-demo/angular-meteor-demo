@@ -50,8 +50,10 @@ Angular meteor app demo
 
      Save the token generated
 
- - Codeship part :
- 
+ - Codeship part : 
+    
+    https://codeship.com/projects/125724
+
     create an account and login with your github account
     create a new project from the angular-meteor-demo github repository
     create your own node.js custom command and add this below
@@ -77,5 +79,3 @@ Angular meteor app demo
      - API Token
      - Project Name
      - Modulus App Url
-
-Next Step : 2
