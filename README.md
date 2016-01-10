@@ -118,4 +118,4 @@ Good things to know :
         - no rules (Only for prototype)
         - Allow/Deny rules 
         - Methods call => Meteor.call()
-next
+
