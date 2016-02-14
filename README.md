@@ -101,3 +101,5 @@ Angular meteor app demo
 - Meteor Collection Part
 
     Events =  new Mongo.Collection("events")
+
+_
