@@ -48,6 +48,7 @@ if (Meteor.isClient) {
 
 if (Meteor.isServer) {
     Meteor.startup(function () {
+        Events.remove({});
         if (Events.find().count() === 0) {
             var events = [
                 {
