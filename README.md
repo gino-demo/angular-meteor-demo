@@ -4,3 +4,4 @@ Deployment in Production : In server folder, check your admin email in users.js 
 then connect you as admin and change the password.
 
 _
+Next
