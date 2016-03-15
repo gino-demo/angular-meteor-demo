@@ -119,5 +119,4 @@ Good things to know :
         - Allow/Deny rules 
         - Methods call => Meteor.call()
 
-_
-Next
+
