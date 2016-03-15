@@ -102,5 +102,4 @@ Angular meteor app demo
 
     Events =  new Mongo.Collection("events")
 
-_
-Next
+
