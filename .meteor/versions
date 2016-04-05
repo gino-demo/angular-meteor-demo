@@ -15,6 +15,7 @@ angular-with-blaze@1.2.1
 angular:angular@1.4.8
 angular:angular-animate@1.4.8
 angularui:angular-google-maps@2.2.1
+angularui:angular-ui-bootstrap@0.13.0
 angularui:angular-ui-router@0.2.15
 autoupdate@1.2.4
 babel-compiler@5.8.24_1

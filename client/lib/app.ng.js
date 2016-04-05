@@ -1,4 +1,4 @@
-angular.module('angular-meteor-demo', ['angular-meteor', 'ui.router', 'uiGmapgoogle-maps', 'ngFileUpload', 'ngImgCrop', 'ngAnimate']);
+angular.module('angular-meteor-demo', ['angular-meteor', 'ui.router', 'uiGmapgoogle-maps', 'ngFileUpload', 'ngImgCrop', 'ngAnimate', 'ui.bootstrap']);
 
 angular.module('angular-meteor-demo').config(function($provide) {
     $provide.decorator('$state', function($delegate, $stateParams) {
@@ -49,6 +49,57 @@ angular.module('angular-meteor-demo').config(['$urlRouterProvider', '$stateProvi
                 },
                 'background-view': {
                     template: '<div anim-background source-video="video/city.mp4" source-image="img/city.jpg"></div>'
+                },
+                'footer-view@app': {
+                    templateUrl: 'client/app/footer/footer.ng.html',
+                    controller: 'FooterCtrl'
+                }
+            }
+        })
+
+        .state('app.searchbox', {
+            url: '/searchbox',
+            views: {
+                'header-view': {
+                    templateUrl: 'client/app/header/header.ng.html',
+                    controller: 'HeaderCtrl'
+                },
+                'content-view': {
+                    template: '<div>hello</div><div><input type="text" style="width:200px" class="form-control" placeholder="Search for an airplane" ng-model="selectedAirplane" typeahead="airplane as airplane.registration for airplane in airplanes | filter:$viewValue | limitTo:3"></div>',
+                    controller: function($scope){
+                        $scope.airplanes = [
+                            {
+                                "registration": "C-FNND",
+                                "operator": "Air Canada",
+                                "manufacturer": "Boeing",
+                                "type": "777-200"
+                            },
+                            {
+                                "registration": "PH-BFW",
+                                "operator": "KLM Royal Dutch Airlines",
+                                "manufacturer": "Boeing",
+                                "type": "747-400"
+                            },
+                            {
+                                "registration": "N124US",
+                                "operator": "US Airways",
+                                "manufacturer": "Airbus",
+                                "type": "A320-200"
+                            },
+                            {
+                                "registration": "A6-EEU",
+                                "operator": "Emirates",
+                                "manufacturer": "Airbus",
+                                "type": "A380-800"
+                            },
+                            {
+                                "registration": "VH-LQL",
+                                "operator": "Qantas",
+                                "manufacturer": "Bombardier",
+                                "type": "DHC-8-400"
+                            }
+                        ];
+                    }
                 },
                 'footer-view@app': {
                     templateUrl: 'client/app/footer/footer.ng.html',
